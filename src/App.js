@@ -10,7 +10,11 @@ import PublicationTable from './Components/Table';
 function App() {
   return (
     <div className="App">
-      <MyButton/>
+      <h1>
+        <MyButton label="AddButton"/>
+        <MyButton label="DelButton"/>
+      </h1>
+      
       <hr></hr>
       <PublicationTable/>
     </div>
