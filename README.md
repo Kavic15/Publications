@@ -3,7 +3,7 @@
 
 14.5 - katalog funčkních komponent
 
-17.5 - projektový den
+24.5. - projektový den
 
 14.6 - kompletace projektu
 
