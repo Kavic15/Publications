@@ -1,22 +1,17 @@
 import React from 'react';
 import './App.css';
+import PublicationCard from './PublicationCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-import MyButton from './Components/Button';
-import PublicationTable from './Components/Table';
-
+import { PublicationLoad } from './components/PublicationButton';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        <MyButton label="AddButton"/>
-        <MyButton label="DelButton"/>
-      </h1>
-      
+      <h1>Publikace</h1>
       <hr></hr>
-      <PublicationTable/>
+      <PublicationCard/>
+      <PublicationLoad/>
+
     </div>
   );
 }
